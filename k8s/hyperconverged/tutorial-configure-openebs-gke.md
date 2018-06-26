@@ -89,7 +89,9 @@ kubectl config set-context demo-openebs03 --cluster=gke_strong-eon-153112_us-cen
 The below command will prompt for username/password. Provide username as "admin" and password for the admin can be obtained from : Google Cloud Platform -> Container Engine -> (cluster) -> Show Credentials:
 
 ```bash
-kubectl config use-context demo-openebs03
+root@ubuntu:~$ kubectl config use-context test-admin
+Switched to context "test-admin".
+
 kubectl config use-context gke_strong-eon-153112_us-central1-a_demo-openebs03
 ```
 **To get the admin priviledge to your cluster(cluster-role admin)**
